@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+   		<link rel="stylesheet" type="text/css" href="css/index.css">
+        <style type="text/css">
+            .fl{
+                float: left;
+            }
+            .fr{
+                float: right;
+            }
+            *{
+                margin:0;
+                padding:0;
+            }
+            img{
+                vertical-align:middle;
+            }
+            /* .left{
+                margin-left: -8px;
+            } */
+            .top,.cover,.main{
+                width: 100%;
+                margin:0 auto;
+                overflow: hidden;
+            }
+            .top{
+                position: relative;
+            }
+            .cover{
+                z-index:999;
+                height: 100%;
+                position: absolute;
+                /* top:150px; */
+            }
+            .main{
+                margin-top:-99px;
+            }
+            .left,.right{
+                transition: all 999s;
+            }
+            .cover:hover .left{
+                transform: translate(-99999px, 0);
+            }
+            .cover:hover .right{
+                transform: translate(99999px, 0);
+            }
+        </style>
+    </head>
+    <body>
+    	<!-- <div class="wrap">
+			<div class="top wrap-absolute">
+    			 <img src="//gdp.alicdn.com/imgextra/i1/1919296915/TB2tSZ8lFXXXXbgXpXXXXXXXXXX_!!1919296915.png" alt=" header.png" height="150" width="1920" />
+    		</div>
+		</div> -->
+		<div class="top">
+			<img src="1_r1_c1.png" width="100%">
+		</div>
+    	<div class="cover ">
+    		<div class="inCover">
+    			<div class="left fl"  style="width:50%;">
+    			 <img src="1_r2_c1.png" width="100%">
+	    		</div>
+	    		<div class="right fl" style="width:50%;">
+	    			<img src="1_r2_c2.png" width="100%">
+	    		</div>
+    		</div>
+    	</div>
+
+    	<!-- <div class="wrap" style="height:100%;">
+    		<div class="cover wrap-absolute">
+	    		<div class="inCover"> height="850" width="960" 
+	    			<div class="left fl" style="width:50%;">
+	    				<img src="https://img.alicdn.com/imgextra/i2/1919296915/TB2nn8olVXXXXb6XXXXXXXXXXXX_!!1919296915.png" alt=" door-left.png" height="850" width="960" alt="">
+		    		</div>
+		    		<div class="right fl" style="width:50%;">
+		    			<img src="https://img.alicdn.com/imgextra/i3/1919296915/TB2qvFtlVXXXXbpXXXXXXXXXXXX_!!1919296915.png" alt=" dooe-right.png" height="850" width="960" alt="">
+		    		</div>
+	    		</div>
+	    	</div>
+    	</div> -->
+    	
+    	<!-- <div class="main">
+	    	<img src="images/headre147.png" height="147" width="1920" alt="">
+	    	<img src="images/main.png" height="1160" width="1920" alt="">
+    		<img src="images/main1.png" height="839" width="1920" alt="">
+    		<div class="ad">
+    			<a class="adLeft" href=""><img src="images/ad-left.png" height="518" width="226" alt=""></a>
+    			<a class="adRight" href=""><img src="images/ad-right.png" height="518" width="226" alt=""></a>
+    		</div>
+    		<img src="images/main2.png"  alt="">
+    		<img src="images/main3.png"  alt="">
+    		<img src="images/main4.png"  alt="">
+    		<img src="images/main5.png"  alt="">
+    		<img src="images/main6.png"  alt="">
+    	</div> -->
+
+            <div class="main">
+                <img src="images/main2.png"  alt="">
+                <img src="images/main3.png"  alt="">
+                <img src="images/main4.png"  alt="">
+                <img src="images/main5.png"  alt="">
+                <img src="images/main6.png"  alt="">
+            </div>
+ 
+            <div class="J_TWidget hidden" data-widget-type="Popup" data-widget-config="{
+              'trigger':'.main',
+              'align':{
+                      'node':'.main',
+                      'offset':[0,0],
+                      'points':['cc','cc']
+                      }
+                }">
+                <div class="ad" style=" height: 518px; top: 100px; position: fixed;">
+                   <div class="adleft" style=" height: 518px; top: 100px; left:20%; position: fixed;" >
+                        <a href=""><img src="images/ad-left.png" height="518" width="226" alt=""></a>
+                   </div>
+                   <div class="adRight" style=" height: 518px; top: 100px; right:20%; position: fixed;">
+                        <a href=""><img src="images/ad-right.png" height="518" width="226" alt=""></a>
+                   </div>
+                </div>
+            </div>
+
+            <!-- <div class="main">
+                <img src="好时 ping-完整最终.png" width="100%" alt="">
+            </div> -->
+    </body>
+</html>
